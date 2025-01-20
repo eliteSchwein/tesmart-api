@@ -17,7 +17,7 @@ await tesmartClient.setAutoDetect(true)
 await tesmartClient.setLedTimeout(30)
 ```
 
-you find the hexcode docu [here](https://cdn.shopify.com/s/files/1/0591/7291/3346/files/HSW801-E23_HSW1601-E23_Benutzerhandbuch.pdf?v=1707290906)
+you find the hexcode docu [here](https://support.tesmart.com/hc/en-us/article_attachments/10269851662361)
 
 this project is based of the [PHP based tesmart-api](https://github.com/KarimGeiger/tesmart-api/tree/main)
 
