@@ -1,0 +1,32 @@
+{
+  "name": "tesmart-api",
+  "version": "1.0.0",
+  "description": "Unoffical Tesmart KVM Switch API Wrapper",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc && ts-node testing/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eliteSchwein/tesmart-api.git"
+  },
+  "author": "eliteSCHW31N",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eliteSchwein/tesmart-api/issues"
+  },
+  "homepage": "https://github.com/eliteSchwein/tesmart-api#readme",
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
